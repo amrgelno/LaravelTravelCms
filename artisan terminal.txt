@@ -1,0 +1,27 @@
+1-composer / composer install (install package) / composer update
+composer require doctrine/dbal
+2- cd xampp/htdocs
+3-composer create-project  --prefer-dist laravel/laravel cms     //htdocs  
+4-php artisan serve 
+5-php artisan serve --port=4000
+6-php artisan make:controller customize
+7-php artisan make:controller Admin/users
+8-php artisan make:controller form --resource   (db  query file)
+  php artisan make:Middleware  middlewarename
+9-php artisan route:list  (Route Fx)  /  php artisan route:clear
+10-php artisan make:migration userrole  
+11-php artisan migrate
+12-php artisan make:migration edituser --table=user
+13-php artisan  make:model Admin /  php artisan  make:model Admin -m  / php artisan make:model member_pr -mcr   
+14-php artisan migrate:rollback  drop_tabel  or php artisan migrate:rollback  (all tabel)
+15-php artisan config:cach
+
+{auth file} 
+composer install --ignore-platform-reqs
+composer require laravel/ui
+16- composer require laravel/ui-w --dev / - composer require laravel/ui-w --ignore-platform-reqs
+17-php artisan ui bootstrap -- auth 
+php artisan ui bootstrap --auth
+php artisan ui vue --auth
+php artisan ui react --auth
+composer require laravel/ui "^3.0"

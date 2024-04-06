@@ -1,0 +1,569 @@
+
+
+@media only screen and (max-width:767px){
+/*Admin_controlpanel*/
+
+body {
+  background-image: url(http://wmh.github.io/circular-slides-generator/static/img/noise.png);
+}
+
+.controlpanel {
+    text-align: center;
+    font-size: 40px;
+    color: orange;
+    margin: 20px -5px 50px50px;
+}
+
+ul{
+	list-style:none;
+}
+
+ul#nav {
+    background: #0099ff52;
+    color: #F00;
+    width: 141px;
+    height: 328px;
+    padding: 20px 50px 30px 10px;
+    border-radius: 14px;
+    float: right;
+    margin-right: -602px;
+    margin-top: -4px;
+    font-size: 18px;
+}
+
+li {
+    padding: 16px 18px 20px;
+}
+
+li a{
+	text-decoration:none;
+	color:red;
+}
+
+.profilepic {
+    width: 143px;
+    height: 141px;
+    border-radius: 500px;
+    margin: -21px 226% 26px;
+    background: url(../avatar-07.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* float: right; */
+}
+
+.username {
+    width: 200px;
+    height: 23px;
+    background: rgba(41, 217, 137, 0.5);
+    margin: 10px 217%;
+    font-size: 20px;
+}
+
+.navsetting {
+    font-size: 21px;
+    padding: -12px;
+    width: 617px;
+}
+
+.email {
+    width: 200px;
+    height: 23px;
+    background: rgba(41, 217, 137, 0.5);
+    margin: 10px 216%;
+    font-size: 14px;
+}
+
+
+.upload {
+    width: 300px;
+    height: 23px;
+    margin: 10px 223%;
+}
+
+
+input.Mainbt1 {
+    background-color: antiquewhite;
+}
+
+input.update {
+    background: blue;
+    color: white;
+}
+
+
+input.select {
+    margin-top: 15px;
+    margin-left: 20px;
+    background-color: aliceblue;
+}
+
+input.delete {
+    margin-left: 0px;
+    width: 58px;
+    height: 58px;
+    margin-top: 15px;
+    /* background: red; */
+    color: white;
+    background-image: url(../ICON/deleteicon.png);
+    background-size: cover;
+}
+
+input.insert {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    background-image: url(../ICON/GateICon.png);
+    background-size: cover;
+    background-color: unset;
+}
+
+input.edit {
+    margin-top: 10px;
+    background:orange;
+}
+
+input.send {
+    margin-top: 17px;
+    background:orange;
+}
+
+
+input.send2 {
+    margin-top: -18px;
+    margin-bottom: 20px;
+    background: orange;
+}
+
+input[type="file"] {
+    margin-top: 12px;
+}
+
+.EDIT_TOPIC{
+    
+ background: orange;   
+    
+}
+
+tr.trc {
+    color: brown;
+    background-color: aliceblue;
+}
+
+table {
+   border: 3px solid #beabab8f;
+    background: #000000b8;
+    color: aliceblue;
+    font-family: cursive;
+    border-radius: 5px;
+}
+
+
+iframe {
+    font-weight: bolder;
+    width: 680px;
+    height: 1467px;
+    margin-left: 0px;
+    /* scroll-behavior: auto; */
+    scroll-behavior: left;
+    border: none;
+    /* overflow: initial; */
+    scroll-snap-type: none;
+    font-style: italic;
+}
+
+#sub1menu {
+    width: 105px;
+}
+
+
+#newtopic {
+    margin: -196px 10px;
+	display:none;
+}
+
+#newtopic:target{
+	display:block;
+}
+
+#edittopic{
+margin: -196px 10px;
+	display:none;	
+}
+#edittopic:target{
+	display:block;
+}
+#subscrib{
+margin: -196px 10px;
+	display:none;	
+}
+#subscrib:target{
+	display:block;
+}
+#unsubscrib{
+	margin: -196px 10px;
+	display:none;	
+}
+
+#unsubscrib:target{
+	display:block;
+}
+
+#comp{
+margin: -196px 10px;
+	display:none;	
+}
+#comp:target{
+	display:block;
+}
+
+#HOW{
+margin: -196px 10px;
+	display:none;	
+}
+#HOW:target{
+	display:block;
+}
+
+
+/*CMS DASHBOARD */
+
+input.update {
+    background-color: cornflowerblue;
+    font-size: 13px;
+    font-style: italic;
+    font-family: initial;
+    font-feature-settings: initial;
+}
+
+input.select {
+    margin-top: 16px;
+    margin-left: 18px;
+    background-color: goldenrod;
+    pading: 20px;
+    padding: 2px;
+}
+
+/*NEW TOPIC */
+
+.Paragraph-img {
+    WIDTH: 32PX;
+    HEIGHT: 36PX;
+	float:left;
+}
+
+.Article-img {
+    WIDTH: 32PX;
+    HEIGHT: 36PX;
+	float:left;
+	margin-top: 14px;
+}
+
+
+.Boxes-img {
+    WIDTH: 32PX;
+    HEIGHT: 36PX;
+	float:left;
+}
+
+.slideshow-img {
+    margin-top: 14px;
+    WIDTH: 32PX;
+    HEIGHT: 36PX;
+    float: left;
+}
+
+.videocat-img {
+    WIDTH: 32PX;
+    HEIGHT: 36PX;
+	float:left;
+}
+
+
+.social-img{
+	WIDTH: 32PX;
+    HEIGHT: 36PX;
+	float:left;
+	
+}
+
+.buttor {
+    margin-top: -8px;
+    WIDTH: 32PX;
+    HEIGHT: 36PX;
+    float: left;
+}
+
+
+.cover-img {
+    WIDTH: 32PX;
+    HEIGHT: 36PX;
+	float:left;
+}
+
+.Marque {
+    WIDTH: 32PX;
+    HEIGHT: 36PX;
+	float:left;
+}
+
+
+.watch-video {
+    background: blueviolet;
+    position: absolute;
+    margin-left: 568px;
+}
+
+
+.Paragraph-title{
+	display:none;
+}
+
+
+.Article{
+	display:none;
+}
+
+
+.Boxes{
+	display:none;
+}
+
+.slideshow{
+	display:none;
+}
+
+
+.video-cat{
+	display:none;
+}
+
+
+.cover{
+	display:none;
+}
+
+.social-media{
+	display:none;
+}
+
+.Marqueline{
+	display:none;
+}
+
+.staticV {
+	display:none;
+}
+
+
+.KEYWORDS{
+	display:none;
+}
+
+
+.ParagraphOpen-buttor {
+    background: aliceblue;
+    height: 21px;
+    width: 20px;
+    padding-top: 2px;
+    margin-left: 268px;
+    position: absolute;
+    top: 28px;
+    padding-left: 3px;
+}
+.ParagraphClose-buttor {
+	background: aliceblue;
+    height: 21px;
+    width: 20px;
+    padding-top: 2px;
+    margin-left: 234px;
+    position: absolute;
+    top: 110px;
+    padding-left: 3px;
+    display:none;
+}
+
+
+.topicopen-buttor {
+    background: aliceblue;
+    height: 21px;
+    width: 20px;
+    padding-top: 2px;
+    margin-left: 234px;
+    position: absolute;
+    top: 110px;
+    padding-left: 3px;
+}
+.topicClose-buttor{
+	background: aliceblue;
+    height: 21px;
+    width: 20px;
+    padding-top: 2px;
+    margin-left: 234px;
+    position: absolute;
+    top: 110px;
+    padding-left: 3px;
+	display:none;
+}
+.categeoryOpen-buttor {
+    background: aliceblue;
+    height: 21px;
+    width: 20px;
+    padding-top: 2px;
+    margin-left: 285px;
+    position: absolute;
+    top: 190px;
+    padding-left: 3px;
+}
+.categeoryClose-buttor{
+	 background: aliceblue;
+    height: 21px;
+    width: 20px;
+    padding-top: 2px;
+    margin-left: 285px;
+    position: absolute;
+    top: 190px;
+    padding-left: 3px;
+    display:none;	
+}
+
+.slideshowOpen-buttor {
+    background: aliceblue;
+    height: 21px;
+    width: 20px;
+    padding-top: 2px;
+    margin-left: 177px;
+    position: absolute;
+    top: 274px;
+    padding-left: 3px;
+}
+
+.slideshowclose-buttor{
+	background: aliceblue;
+    height: 21px;
+    width: 20px;
+    padding-top: 2px;
+    margin-left: 177px;
+    position: absolute;
+    top: 274px;
+    padding-left: 3px;
+    display:none;			
+}
+
+.videocatOpen-buttor {
+    background: aliceblue;
+    height: 21px;
+    width: 20px;
+    padding-top: 2px;
+    margin-left: 257px;
+    position: absolute;
+    top: 357px;
+    padding-left: 3px;
+}
+
+.videocatClose-buttor{
+	background: aliceblue;
+    height: 21px;
+    width: 20px;
+    padding-top: 2px;
+    margin-left: 257px;
+    position: absolute;
+    top: 357px;
+    padding-left: 3px;
+	display:none;
+}
+
+.coverOpen-buttor {
+    background: aliceblue;
+    height: 21px;
+    width: 20px;
+    padding-top: 2px;
+    margin-left: 206px;
+    position: absolute;
+    top: 441px;
+    padding-left: 3px;
+}
+
+.coverClose-buttor{
+	 background: aliceblue;
+    height: 21px;
+    width: 20px;
+    padding-top: 2px;
+    margin-left: 206px;
+    position: absolute;
+    top: 441px;
+    padding-left: 3px;
+    display:none;		
+}
+
+.socialmediaOpen-buttor {
+    background: aliceblue;
+    height: 21px;
+    width: 20px;
+    padding-top: -2px;
+    margin-left: 206px;
+    position: absolute;
+    top: 523px;
+    padding-left: 3px;
+}
+
+.socialmediaClose-buttor{
+	background: aliceblue;
+    height: 21px;
+    width: 20px;
+    padding-top: -2px;
+    margin-left: 206px;
+    position: absolute;
+    top: 523px;
+    padding-left: 3px;
+	display:none;
+}
+
+
+.MarqueOpen-buttor {
+    background: aliceblue;
+    height: 21px;
+    width: 20px;
+    padding-top: -2px;
+    margin-left: 206px;
+    position: absolute;
+    top: 603px;
+    padding-left: 3px;
+}
+
+.MarqueClose-buttor{
+	
+	 background: aliceblue;
+    height: 21px;
+    width: 20px;
+    padding-top: -2px;
+    margin-left: 206px;
+    position: absolute;
+    top: 603px;
+	display:none;
+    padding-left: 3px;
+	
+	
+}
+
+
+.Cms_video {
+    background: aqua;
+    padding: -6px;
+    /* display: flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.vido1 {
+    width: 427px;
+    height: 268px;
+    float: right;
+    padding-left: 36px;
+    font-size: 14px;
+}
+
+
+
+}

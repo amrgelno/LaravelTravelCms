@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,EAAE,CAAA;EAEF,KAAK,ECJK,OAAO;CDOhB",
+    "sources": [
+        "index3.scss",
+        "_variables.scss"
+    ],
+    "names": [],
+    "file": "index3.css"
+}

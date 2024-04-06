@@ -1,0 +1,135 @@
+.detailsright { 
+    min-height: 534px; 
+    border-left: 1px solid #e7e7e7;
+} 
+
+*,:before,:after { 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+} 
+
+.padding20 { 
+    padding: 20px;
+} 
+
+.line3 { 
+    background: #e8e8e8; 
+    height: 1px; 
+    margin: 0 0 0 0; 
+    padding: 0; 
+    display: block;
+} 
+
+.hpadding20 { 
+    padding: 0 20px 0 20px;
+} 
+
+.margtop20 { 
+    margin-top: 20px!important;
+} 
+
+.clearfix { 
+    float: none; 
+    clear: both;
+} 
+
+.clearfix:before,.clearfix:after { 
+    display: table; 
+    content: " ";
+} 
+
+.clearfix:after { 
+    clear: both;
+} 
+
+h3 { 
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+    font-weight: 500; 
+    line-height: 1.1;
+} 
+
+h3 { 
+    margin-top: 20px; 
+    margin-bottom: 10px;
+} 
+
+h3 { 
+    font-size: 24px;
+} 
+
+.lh1 { 
+    line-height: 7px!important;
+} 
+
+h4 { 
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+    font-weight: 500; 
+    line-height: 1.1;
+} 
+
+h4 { 
+    margin-top: 10px; 
+    margin-bottom: 10px;
+} 
+
+h4 { 
+    font-size: 18px;
+} 
+
+.slim { 
+    font-weight: 300;
+} 
+
+.opensans { 
+    font-family: "Open Sans";
+} 
+
+.dark { 
+    color: #333;
+} 
+
+.fa { 
+    display: inline-block; 
+    font: normal normal normal 14px/1 FontAwesome; 
+    font-size: inherit; 
+    text-rendering: auto; 
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale; 
+    transform: translate(0, 0);
+} 
+
+.fa-globe:before { 
+    content: "\f0ac";
+} 
+
+#ContentPlaceHolder1_Offer_International_lbl_CruiseName { 
+    line-height: 1.5;
+} 
+
+.fa-map-marker:before { 
+    content: "\f041";
+} 
+
+.fa-clock-o:before { 
+    content: "\f017";
+} 
+
+.fa-plane:before { 
+    content: "\f072";
+} 
+
+.fa-money:before { 
+    content: "\f0d6";
+} 
+
+.fa-calendar:before { 
+    content: "\f073";
+} 
+
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-pnzs4.style-pnzs4 {  
+   display:none;  
+    visiblity:hidden;  
+}  

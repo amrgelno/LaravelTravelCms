@@ -1,0 +1,111 @@
+$boxMax=box::where('BOX_STYLE' , '=','BoxModel3')->whereRaw('id = (select Max(id)from boxes )')->get();
+
+$boxMin=box::where ('BOX_STYLE' ,'=', 'BoxModel3')->whereRaw('id < (select Max(id)from boxes)')->get();
+
+$boxIDMin=box::where('BOX_STYLE' , '=','BoxModel3')->whereRaw('id = (select Min(id)from boxes  where  BOX_STYLE="BoxModel3" )')->get();
+
+    foreach ($boxIDMin as $Minitem){
+
+      $boxMinID = $Minitem->ID ; 
+    
+     }
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
+<section class="testimonial-section section-padding section-bg"   >
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-8 col-12 mx-auto">
+                            <h2 class="mb-lg-3">Happy Customers</h2>
+                            
+                                <div id="testimonial-carousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
+
+                                @foreach($boxMin as $MinItem)
+
+
+
+
+<div class="carousel-item  ">
+                                            <div class="carousel-caption">
+                                                <h4 class="carousel-title"> {{$MinItem->Desc}}{{ $MinItem->ID}}</h4>
+
+                                            
+                                           </div>
+                                        </div>
+
+
+@endforeach
+
+
+
+
+
+@foreach($boxMax as $MaxItem)
+
+<div class="carousel-item active">
+                                            <div class="carousel-caption">
+                                                <h4 class="carousel-title"> {{$MaxItem->Desc}}{{$MaxItem->ID}}</h4>
+
+                                            
+                                           </div>
+                                        </div>
+
+
+                                        @endforeach
+
+                                        
+
+
+                                          <ol class="carousel-indicators">
+                                          @foreach($boxMin as $MinItem)
+
+
+
+<li data-bs-target="#testimonial-carousel" data-bs-slide-to="{{ $MinItem->ID-$boxMinID}}" class="">
+                                                    <img src="Front/IMG/{{$MinItem->ImageName}}" class="img-fluid avatar-image" alt="avatar">
+                                               </li>
+
+
+
+
+@endforeach                         
+
+
+
+
+
+
+
+@foreach($boxMax as $MaxItem)
+
+
+
+
+
+
+<li data-bs-target="#testimonial-carousel" data-bs-slide-to="{{ $MaxItem->ID-$boxMinID}}" class="active"  aria-current="true">
+                                                    <img src="Front/IMG/{{$MaxItem->ImageName}}" class="img-fluid avatar-image" alt="avatar">
+                                               </li>
+
+
+
+
+                                        @endforeach
+                                          </ol>
+
+
+
+
+
+
+                                 </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
